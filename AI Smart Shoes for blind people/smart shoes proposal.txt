@@ -1,0 +1,107 @@
+# AI Smart Shoes Project Report (For Blind People)
+
+1. Introduction
+
+AI Smart Shoes is an assistive technology project designed to help visually impaired (blind) people walk safely. The system detects obstacles in front of the user and provides real-time alerts using a buzzer.
+
+---
+
+ 2. Objective
+
+The main objective of this project is:
+
+* To help blind people detect obstacles while walking
+* To improve safety and independence
+* To create a low-cost assistive device using Arduino
+
+---
+
+ 3. Components Used
+
+* Arduino Uno
+* Ultrasonic Sensor (HC-SR04)
+* Buzzer
+* Battery (Power Supply)
+* Switch (ON/OFF control)
+* Connecting wires
+* Shoes (for integration)
+
+---
+
+ 4. Working Principle
+
+The system works on ultrasonic distance measurement:
+
+* The ultrasonic sensor sends sound waves
+* These waves reflect back after hitting an object
+* Arduino calculates the distance
+* If distance is less than a set limit, buzzer turns ON
+* If no obstacle is near, buzzer remains OFF
+
+---
+
+## 5. Circuit Description
+
+* Ultrasonic sensor is connected to Arduino digital pins
+* Buzzer is connected to output pin
+* Battery powers the system through switch
+* Switch controls ON/OFF functionality
+
+---
+
+ 6. Circuit Connections
+
+### Ultrasonic Sensor:
+
+* VCC → 5V
+* GND → GND
+* TRIG → D9
+* ECHO → D10
+
+### Buzzer:
+
+* Positive → D8
+* Negative → GND
+
+### Power Supply:
+
+* Battery + → Switch → VIN (Arduino)
+* Battery - → GND
+
+---
+
+
+---
+
+7. Applications
+
+* Help for blind people
+* Smart walking assistance
+* Obstacle detection system
+* Low-cost safety device
+
+---
+
+ 8. Advantages
+
+* Low cost
+* Easy to build
+* Portable
+* Improves safety
+
+---
+
+ 9. Limitations
+
+* Works only for short distance
+* Needs battery power
+* May not detect very small objects
+
+---
+
+
+---
+
+ 10. Conclusion
+
+This project successfully demonstrates a low-cost assistive system for blind people using Arduino. It detects obstacles and provides audio alerts, improving user safety and independence.
